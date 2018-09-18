@@ -61,55 +61,24 @@ footer {
         top: 8vw;
     }
 
-    footer #creators {
+    footer #signature {
+        outline: 5px solid red;
         position: absolute;
-        right: 30vw;
-        bottom: 5vw;
-        width: 30vw;
+        left: 5.5vw;
+        top: 11vw;  
     }
 
-    footer #creators div {
-        display: inline-block;
-        padding: 0 1vw;
-        text-align: center;
-        font-size: 1.2vw;
-    }
+        footer #signature div {
+            display: inline;
+            text-align: center;
+            font-size: 1.2vw;
+        }
 
-    footer #creators .links {
-        display: block;
-        text-align: center;
-        font-size: 1vw;
-    }
+        footer #signature .links {
+            text-align: center;
+            font-size: 1vw;
+        }
 
-    footer #smallprint {
-        font-family: 'Open Sans', sans-serif;   
-        position: absolute;
-        font-size: 1vw;
-        bottom: 3vw;
-        left: 1vw;
-        color: #555;
-        width: 20vw;
-        text-align: center;
-    }
-
-    footer #moose {
-        height: 8vw;
-        border-radius: 50%;
-        background-color: white;
-        display: inline-block;
-        bottom: 3.5vw;
-        width: 8vw;
-        position: absolute;
-        right: 5vw;
-    }
-
-    footer #moose img {
-        display: block;
-        padding-top: 2.5vw;
-        vertical-align: middle;
-        width: 5vw;
-        margin: auto;
-    }
 
 #notecard {
     position: relative;
